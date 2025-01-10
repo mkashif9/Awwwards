@@ -9,8 +9,9 @@ const Button = ({title,id,rightIcon,leftIcon,containerClass}) => {
         text-xs uppercase
         ">
             <div>{title}</div>
+            <div>{rightIcon}</div>
         </span>
-        {rightIcon}
+        
         </button>
   )
 }
